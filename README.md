@@ -38,7 +38,7 @@ This will set up the environments with Python and all required packages (napari,
 
 #### Cellpose
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/IgnacioSallaberry/workshop_2D_segmentation/blob/main/notebooks/cellpose_napari_2d.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/IgnacioSallaberry/workshop_2D_segmentation/blob/main/notebooks/cellpose_napari_2d.ipynb)
 
 
 ```bash
@@ -57,7 +57,7 @@ You can also test your images in [HuggingFace Spaces](https://huggingface.co/spa
 
 #### Stardist
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/IgnacioSallaberry/workshop_2D_segmentation/blob/main/notebooks/stardist_napari_2d.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/IgnacioSallaberry/workshop_2D_segmentation/blob/main/notebooks/stardist_napari_2d.ipynb)
 
 ```bash
 pixi run stardist
