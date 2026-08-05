@@ -25,15 +25,8 @@ git clone https://github.com/acorbat/workshop_3d_dl_segmentation.git
 cd workshop_2d_dl_segmentation
 ```
 
+### In a terminal in the workshop notebook
 ### Install the environment
-
-```bash
-pixi install
-```
-
-This will set up Python 3.11 and all required packages (napari, bioio, cellpose, stardist).
-
-### Download the workshop dataset
 
 ```bash
 pixi run setup
@@ -41,20 +34,36 @@ pixi run setup
 
 This will set up the environments with Python and all required packages (napari, bioio, cellpose, stardist) and download `Tissue_16x_avg.nd2` and `Nuclei_avg16x.nd2` (a 2D microscopy images) from Zenodo to the `data/` folder.
 
-### Open a terminal in the workshop notebook
+### Run Deep Learnings models for analysis
 
 #### Cellpose
 
 ```bash
 pixi run cellpose
 ```
+Select the cellpose environment by scrolling with the arrows
+
+```bash
+  default
+> cellpose
+  cellpose-cpu
+  stardist
+```
+
 
 #### Stardist
 
 ```bash
 pixi run stardist
 ```
+Select the stardist environment by scrolling with the arrows
 
+```bash
+  default
+  cellpose
+  cellpose-cpu
+> stardist
+```
 Or open them in VS Code with the Jupyter extension.
 
 ## Workshop Guide
