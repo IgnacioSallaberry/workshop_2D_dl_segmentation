@@ -75,8 +75,14 @@ stardist = ["stardist"]
 [tasks]
 setup = { depends-on = ["install-cellpose", "download-data"] }
 download-data = """
+curl -L https://zenodo.org/records/15175309/files/Tissue_16x_avg.nd2 --output data/Tissue_16x_avg.nd2 --create-dirs &&
+curl -L https://zenodo.org/records/15175309/files/Nuclei_avg16x.nd2 --output data/Nuclei_avg16x.nd2 --create-dirs &&
+
 curl -L https://zenodo.org/records/17986091/files/Lund.tif --output data/Lund.tif --create-dirs &&
 curl -L https://git.mpi-cbg.de/rhaase/clij2_example_data/-/raw/master/lund1051_resampled.tif --output data/lund1051_resampled.tif --create-dirs
+
+
+
 """
 cellpose = "jupyter lab notebooks/cellpose_napari_3d.ipynb"
 stardist = "jupyter lab notebooks/stardist_napari_3d.ipynb"
