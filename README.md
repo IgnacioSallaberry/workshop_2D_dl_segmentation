@@ -38,6 +38,9 @@ This will set up the environments with Python and all required packages (napari,
 
 #### Cellpose
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/IgnacioSallaberry/workshop_2D_segmentation/blob/main/notebooks/cellpose_napari_2d.ipynb)
+
+
 ```bash
 pixi run cellpose
 ```
