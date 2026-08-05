@@ -53,6 +53,7 @@ Select the cellpose environment by scrolling with the arrows
   stardist
 ```
 
+You can also test your images in [HuggingFace Spaces](https://huggingface.co/spaces/mouseland/cellpose)
 
 #### Stardist
 
