@@ -72,6 +72,12 @@ Select the stardist environment by scrolling with the arrows
 ```
 Or open them in VS Code with the Jupyter extension.
 
+### Cellpose 3D
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/IgnacioSallaberry/workshop_2D_segmentation/blob/main/notebooks/cellpose_napari_3d.ipynb)
+
+You have the option to try out Cellpose on a 3D bigger dataset.
+
 ## Workshop Guide
 
 For a detailed walkthrough of the notebooks and additional learning resources, see the [**workshop.md**](workshop.md) file. It includes:
