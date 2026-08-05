@@ -1,2 +1,8 @@
 # pixi environments
 .pixi
+
+# ignore data folder
+data/
+
+# ignore ipython notebook checkpoints
+.ipynb_checkpoints/
