@@ -57,6 +57,8 @@ You can also test your images in [HuggingFace Spaces](https://huggingface.co/spa
 
 #### Stardist
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/IgnacioSallaberry/workshop_2D_segmentation/blob/main/notebooks/stardist_napari_2d.ipynb)
+
 ```bash
 pixi run stardist
 ```
