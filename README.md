@@ -21,7 +21,7 @@ Install [Pixi](https://pixi.sh) - a fast, cross-platform package manager built o
 ### Clone this repository
 
 ```bash
-git clone https://github.com/acorbat/workshop_3d_dl_segmentation.git
+git clone https://github.com/IgnacioSallaberry/workshop_2D_dl_segmentation.git
 cd workshop_2d_dl_segmentation
 ```
 
